@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E3DCDA81B1BFC3700B5CE31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DCDA71B1BFC3700B5CE31 /* AppDelegate.swift */; };
+		2E3DCDAB1B1BFC3700B5CE31 /* ExchangeAGram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DCDA91B1BFC3700B5CE31 /* ExchangeAGram.xcdatamodeld */; };
+		2E3DCDAD1B1BFC3700B5CE31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DCDAC1B1BFC3700B5CE31 /* ViewController.swift */; };
+		2E3DCDB01B1BFC3700B5CE31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3DCDAE1B1BFC3700B5CE31 /* Main.storyboard */; };
+		2E3DCDB21B1BFC3700B5CE31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E3DCDB11B1BFC3700B5CE31 /* Images.xcassets */; };
+		2E3DCDB51B1BFC3700B5CE31 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E3DCDB31B1BFC3700B5CE31 /* LaunchScreen.xib */; };
+		2E3DCDC11B1BFC3700B5CE31 /* ExchangeAGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DCDC01B1BFC3700B5CE31 /* ExchangeAGramTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E3DCDBB1B1BFC3700B5CE31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E3DCD9A1B1BFC3700B5CE31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E3DCDA11B1BFC3700B5CE31;
+			remoteInfo = ExchangeAGram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E3DCDA21B1BFC3700B5CE31 /* ExchangeAGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeAGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3DCDA61B1BFC3700B5CE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E3DCDA71B1BFC3700B5CE31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E3DCDAA1B1BFC3700B5CE31 /* ExchangeAGram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExchangeAGram.xcdatamodel; sourceTree = "<group>"; };
+		2E3DCDAC1B1BFC3700B5CE31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E3DCDAF1B1BFC3700B5CE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E3DCDB11B1BFC3700B5CE31 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2E3DCDB41B1BFC3700B5CE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2E3DCDBA1B1BFC3700B5CE31 /* ExchangeAGramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExchangeAGramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3DCDBF1B1BFC3700B5CE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E3DCDC01B1BFC3700B5CE31 /* ExchangeAGramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeAGramTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E3DCD9F1B1BFC3700B5CE31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E3DCDB71B1BFC3700B5CE31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E3DCD991B1BFC3700B5CE31 = {
+			isa = PBXGroup;
+			children = (
+				2E3DCDA41B1BFC3700B5CE31 /* ExchangeAGram */,
+				2E3DCDBD1B1BFC3700B5CE31 /* ExchangeAGramTests */,
+				2E3DCDA31B1BFC3700B5CE31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E3DCDA31B1BFC3700B5CE31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E3DCDA21B1BFC3700B5CE31 /* ExchangeAGram.app */,
+				2E3DCDBA1B1BFC3700B5CE31 /* ExchangeAGramTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E3DCDA41B1BFC3700B5CE31 /* ExchangeAGram */ = {
+			isa = PBXGroup;
+			children = (
+				2E3DCDA71B1BFC3700B5CE31 /* AppDelegate.swift */,
+				2E3DCDAC1B1BFC3700B5CE31 /* ViewController.swift */,
+				2E3DCDAE1B1BFC3700B5CE31 /* Main.storyboard */,
+				2E3DCDB11B1BFC3700B5CE31 /* Images.xcassets */,
+				2E3DCDB31B1BFC3700B5CE31 /* LaunchScreen.xib */,
+				2E3DCDA91B1BFC3700B5CE31 /* ExchangeAGram.xcdatamodeld */,
+				2E3DCDA51B1BFC3700B5CE31 /* Supporting Files */,
+			);
+			path = ExchangeAGram;
+			sourceTree = "<group>";
+		};
+		2E3DCDA51B1BFC3700B5CE31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E3DCDA61B1BFC3700B5CE31 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E3DCDBD1B1BFC3700B5CE31 /* ExchangeAGramTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E3DCDC01B1BFC3700B5CE31 /* ExchangeAGramTests.swift */,
+				2E3DCDBE1B1BFC3700B5CE31 /* Supporting Files */,
+			);
+			path = ExchangeAGramTests;
+			sourceTree = "<group>";
+		};
+		2E3DCDBE1B1BFC3700B5CE31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E3DCDBF1B1BFC3700B5CE31 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E3DCDA11B1BFC3700B5CE31 /* ExchangeAGram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E3DCDC41B1BFC3700B5CE31 /* Build configuration list for PBXNativeTarget "ExchangeAGram" */;
+			buildPhases = (
+				2E3DCD9E1B1BFC3700B5CE31 /* Sources */,
+				2E3DCD9F1B1BFC3700B5CE31 /* Frameworks */,
+				2E3DCDA01B1BFC3700B5CE31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExchangeAGram;
+			productName = ExchangeAGram;
+			productReference = 2E3DCDA21B1BFC3700B5CE31 /* ExchangeAGram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E3DCDB91B1BFC3700B5CE31 /* ExchangeAGramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E3DCDC71B1BFC3700B5CE31 /* Build configuration list for PBXNativeTarget "ExchangeAGramTests" */;
+			buildPhases = (
+				2E3DCDB61B1BFC3700B5CE31 /* Sources */,
+				2E3DCDB71B1BFC3700B5CE31 /* Frameworks */,
+				2E3DCDB81B1BFC3700B5CE31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E3DCDBC1B1BFC3700B5CE31 /* PBXTargetDependency */,
+			);
+			name = ExchangeAGramTests;
+			productName = ExchangeAGramTests;
+			productReference = 2E3DCDBA1B1BFC3700B5CE31 /* ExchangeAGramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E3DCD9A1B1BFC3700B5CE31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ryan Jones";
+				TargetAttributes = {
+					2E3DCDA11B1BFC3700B5CE31 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					2E3DCDB91B1BFC3700B5CE31 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 2E3DCDA11B1BFC3700B5CE31;
+					};
+				};
+			};
+			buildConfigurationList = 2E3DCD9D1B1BFC3700B5CE31 /* Build configuration list for PBXProject "ExchangeAGram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E3DCD991B1BFC3700B5CE31;
+			productRefGroup = 2E3DCDA31B1BFC3700B5CE31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E3DCDA11B1BFC3700B5CE31 /* ExchangeAGram */,
+				2E3DCDB91B1BFC3700B5CE31 /* ExchangeAGramTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E3DCDA01B1BFC3700B5CE31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3DCDB01B1BFC3700B5CE31 /* Main.storyboard in Resources */,
+				2E3DCDB51B1BFC3700B5CE31 /* LaunchScreen.xib in Resources */,
+				2E3DCDB21B1BFC3700B5CE31 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E3DCDB81B1BFC3700B5CE31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E3DCD9E1B1BFC3700B5CE31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3DCDAD1B1BFC3700B5CE31 /* ViewController.swift in Sources */,
+				2E3DCDA81B1BFC3700B5CE31 /* AppDelegate.swift in Sources */,
+				2E3DCDAB1B1BFC3700B5CE31 /* ExchangeAGram.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E3DCDB61B1BFC3700B5CE31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3DCDC11B1BFC3700B5CE31 /* ExchangeAGramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E3DCDBC1B1BFC3700B5CE31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E3DCDA11B1BFC3700B5CE31 /* ExchangeAGram */;
+			targetProxy = 2E3DCDBB1B1BFC3700B5CE31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E3DCDAE1B1BFC3700B5CE31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E3DCDAF1B1BFC3700B5CE31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E3DCDB31B1BFC3700B5CE31 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E3DCDB41B1BFC3700B5CE31 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E3DCDC21B1BFC3700B5CE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E3DCDC31B1BFC3700B5CE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E3DCDC51B1BFC3700B5CE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ExchangeAGram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E3DCDC61B1BFC3700B5CE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ExchangeAGram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2E3DCDC81B1BFC3700B5CE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ExchangeAGramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExchangeAGram.app/ExchangeAGram";
+			};
+			name = Debug;
+		};
+		2E3DCDC91B1BFC3700B5CE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ExchangeAGramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExchangeAGram.app/ExchangeAGram";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E3DCD9D1B1BFC3700B5CE31 /* Build configuration list for PBXProject "ExchangeAGram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3DCDC21B1BFC3700B5CE31 /* Debug */,
+				2E3DCDC31B1BFC3700B5CE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E3DCDC41B1BFC3700B5CE31 /* Build configuration list for PBXNativeTarget "ExchangeAGram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3DCDC51B1BFC3700B5CE31 /* Debug */,
+				2E3DCDC61B1BFC3700B5CE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E3DCDC71B1BFC3700B5CE31 /* Build configuration list for PBXNativeTarget "ExchangeAGramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3DCDC81B1BFC3700B5CE31 /* Debug */,
+				2E3DCDC91B1BFC3700B5CE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2E3DCDA91B1BFC3700B5CE31 /* ExchangeAGram.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2E3DCDAA1B1BFC3700B5CE31 /* ExchangeAGram.xcdatamodel */,
+			);
+			currentVersion = 2E3DCDAA1B1BFC3700B5CE31 /* ExchangeAGram.xcdatamodel */;
+			path = ExchangeAGram.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2E3DCD9A1B1BFC3700B5CE31 /* Project object */;
+}
