@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		2E3DCDA81B1BFC3700B5CE31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DCDA71B1BFC3700B5CE31 /* AppDelegate.swift */; };
 		2E3DCDAB1B1BFC3700B5CE31 /* ExchangeAGram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DCDA91B1BFC3700B5CE31 /* ExchangeAGram.xcdatamodeld */; };
-		2E3DCDAD1B1BFC3700B5CE31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DCDAC1B1BFC3700B5CE31 /* ViewController.swift */; };
 		2E3DCDB01B1BFC3700B5CE31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3DCDAE1B1BFC3700B5CE31 /* Main.storyboard */; };
 		2E3DCDB21B1BFC3700B5CE31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E3DCDB11B1BFC3700B5CE31 /* Images.xcassets */; };
 		2E3DCDB51B1BFC3700B5CE31 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E3DCDB31B1BFC3700B5CE31 /* LaunchScreen.xib */; };
 		2E3DCDC11B1BFC3700B5CE31 /* ExchangeAGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DCDC01B1BFC3700B5CE31 /* ExchangeAGramTests.swift */; };
+		2E3DCDCB1B1E784000B5CE31 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DCDCA1B1E784000B5CE31 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +31,13 @@
 		2E3DCDA61B1BFC3700B5CE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E3DCDA71B1BFC3700B5CE31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E3DCDAA1B1BFC3700B5CE31 /* ExchangeAGram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExchangeAGram.xcdatamodel; sourceTree = "<group>"; };
-		2E3DCDAC1B1BFC3700B5CE31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2E3DCDAF1B1BFC3700B5CE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E3DCDB11B1BFC3700B5CE31 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2E3DCDB41B1BFC3700B5CE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2E3DCDBA1B1BFC3700B5CE31 /* ExchangeAGramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExchangeAGramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E3DCDBF1B1BFC3700B5CE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E3DCDC01B1BFC3700B5CE31 /* ExchangeAGramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeAGramTests.swift; sourceTree = "<group>"; };
+		2E3DCDCA1B1E784000B5CE31 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				2E3DCDA71B1BFC3700B5CE31 /* AppDelegate.swift */,
-				2E3DCDAC1B1BFC3700B5CE31 /* ViewController.swift */,
+				2E3DCDCA1B1E784000B5CE31 /* FeedViewController.swift */,
 				2E3DCDAE1B1BFC3700B5CE31 /* Main.storyboard */,
 				2E3DCDB11B1BFC3700B5CE31 /* Images.xcassets */,
 				2E3DCDB31B1BFC3700B5CE31 /* LaunchScreen.xib */,
@@ -215,8 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E3DCDAD1B1BFC3700B5CE31 /* ViewController.swift in Sources */,
 				2E3DCDA81B1BFC3700B5CE31 /* AppDelegate.swift in Sources */,
+				2E3DCDCB1B1E784000B5CE31 /* FeedViewController.swift in Sources */,
 				2E3DCDAB1B1BFC3700B5CE31 /* ExchangeAGram.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
