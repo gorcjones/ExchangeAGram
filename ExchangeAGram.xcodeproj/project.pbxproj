@@ -16,6 +16,7 @@
 		2E3DCDCB1B1E784000B5CE31 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DCDCA1B1E784000B5CE31 /* FeedViewController.swift */; };
 		2E3DCDCD1B1E8DEC00B5CE31 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DCDCC1B1E8DEC00B5CE31 /* FeedCell.swift */; };
 		2E3DCDCF1B1FC92100B5CE31 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3DCDCE1B1FC92100B5CE31 /* MobileCoreServices.framework */; };
+		2E3DCDD11B1FE80800B5CE31 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DCDD01B1FE80800B5CE31 /* FeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		2E3DCDCA1B1E784000B5CE31 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		2E3DCDCC1B1E8DEC00B5CE31 /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		2E3DCDCE1B1FC92100B5CE31 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2E3DCDD01B1FE80800B5CE31 /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		2E3DCDA41B1BFC3700B5CE31 /* ExchangeAGram */ = {
 			isa = PBXGroup;
 			children = (
+				2E3DCDD01B1FE80800B5CE31 /* FeedItem.swift */,
 				2E3DCDA71B1BFC3700B5CE31 /* AppDelegate.swift */,
 				2E3DCDCA1B1E784000B5CE31 /* FeedViewController.swift */,
 				2E3DCDCC1B1E8DEC00B5CE31 /* FeedCell.swift */,
@@ -225,6 +228,7 @@
 				2E3DCDA81B1BFC3700B5CE31 /* AppDelegate.swift in Sources */,
 				2E3DCDCD1B1E8DEC00B5CE31 /* FeedCell.swift in Sources */,
 				2E3DCDCB1B1E784000B5CE31 /* FeedViewController.swift in Sources */,
+				2E3DCDD11B1FE80800B5CE31 /* FeedItem.swift in Sources */,
 				2E3DCDAB1B1BFC3700B5CE31 /* ExchangeAGram.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
