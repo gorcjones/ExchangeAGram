@@ -13,6 +13,7 @@ class FilterViewController: UIViewController, UICollectionViewDataSource, UIColl
     
     var collectionView: UICollectionView!
     
+    kIntensity = 0.7
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -63,6 +64,17 @@ class FilterViewController: UIViewController, UICollectionViewDataSource, UIColl
         let transfer = CIFilter(name: "CIPhotoEffectTransfer")
         let unsharpen = CIFilter(name: "CIUnsharpMask")
         let monochrome = CIFilter(name: "CIColorMonoChrome")
+        
+        let colorControls = CIFilter(name: "CIColorControls")
+        colorControls.setValue(0.5, forKey: kCIInputSaturationKey)
+        
+        let sepia = CIFilter(name: "CISepiaTone")
+        sepia.setValue(kIntensity, forKey: kCCInputIntensityKey)
+        
+        
+        let colorClamp = CIFilter(name: "CIColorClamp")
+        colorClamp.setValue(CIVector(x: 0.9, y: 0.9, z: 0.9, w: 0.9), forKey: "inputMaxComponents")
+        colorClamp.setValue(CIVector(x: 0.2, y: 0.2, z: 0.2, w: 0.2), forKey: "inputMinComponents")
         
         return []
     }
