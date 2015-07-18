@@ -15,7 +15,7 @@ class FilterViewController: UIViewController, UICollectionViewDataSource, UIColl
     
     let kIntensity = 0.7
     var context:CIContext = CIContext(options: nil)
-    
+    var filters:[CIFilter] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +33,7 @@ class FilterViewController: UIViewController, UICollectionViewDataSource, UIColl
         
         
         self.view.addSubview(collectionView)
+        filters = photoFilters()
         
         
         
@@ -47,13 +48,14 @@ class FilterViewController: UIViewController, UICollectionViewDataSource, UIColl
     // UICollectionViewDataSource
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 2
+        return filters.count
+        
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell:FilterCell = collectionView.dequeueReusableCellWithReuseIdentifier("MyCell", forIndexPath: indexPath) as! FilterCell
-        cell.imageView.image = UIImage(named: "Placeholder")
-        
+        //cell.imageView.image = UIImage(named: "Placeholder")
+        cell.imageView.image = filteredImageFromImage(thisFeedItem.image, filter: filters[indexPath.row])
         return cell
         
     }
@@ -86,7 +88,7 @@ class FilterViewController: UIViewController, UICollectionViewDataSource, UIColl
         vignette.setValue(kIntensity * 2, forKey: kCIInputIntensityKey)
         vignette.setValue(kIntensity * 30, forKey: kCIInputRadiusKey)
         
-        return [blur, instant, noir, transfer, unsharpen, monochrome, colorControls, sepia, colorClamp, composite, vignette]
+        return [blur, instant, noir, transfer, unsharpen, colorControls, sepia, colorClamp, composite, vignette] //monochrome
     }
     
     func filteredImageFromImage (imageData: NSData, filter: CIFilter) -> UIImage {
@@ -100,7 +102,7 @@ class FilterViewController: UIViewController, UICollectionViewDataSource, UIColl
         
         let finalImage = UIImage(CGImage: cgImage)
         
-        return finalImage
+        return finalImage!
         
     }
 
